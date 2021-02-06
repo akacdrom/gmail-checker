@@ -1,0 +1,34 @@
+{
+  "manifest_version": 2,
+
+  "name": "Gmail Notification Sender (Single Account)",
+  "description": "Sending notification when mail arrives",
+  "version": "0.1",
+
+  "background": {
+    "page": "background.html"
+  },
+
+  "permissions": [
+    "https://mail.google.com/",
+    "http://mail.google.com/",
+    "https://inbox.google.com/",
+    "http://inbox.google.com/",
+    "tabs",
+    "notifications",
+    "background"
+  ],
+
+  "icons": { 
+    "128": "img/gmail-4.png"
+  },
+  
+  "browser_action": {
+    "default_title": "Gmail Notification Sender",
+    "default_icon": {
+        "19": "img/gmail-4.png",
+        "38": "img/gmail-4.png"
+    }
+
+  }
+}
