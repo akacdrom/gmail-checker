@@ -12,8 +12,6 @@
   "permissions": [
     "https://mail.google.com/",
     "http://mail.google.com/",
-    "https://inbox.google.com/",
-    "http://inbox.google.com/",
     "tabs",
     "notifications",
     "background"
